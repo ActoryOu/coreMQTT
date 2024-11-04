@@ -1,0 +1,45 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: coreMQTT
+DocumentNamespace: https://github.com/FreeRTOS/coreMQTT/blob/$VERSION_NUMBER/sbom.spdx
+Creator: Organization:Amazon Web Services
+Created: 2024-11-04T11:27:35Z
+CreatorComment: NOASSERTION
+DocumentComment: NOASSERTION
+
+PackageName: coreMQTT
+SPDXID: SPDXRef-Package-coreMQTT
+PackageVersion: $VERSION_NUMBER
+PackageDownloadLocation: https://github.com/ActoryOu/coreMQTT/tree/$VERSION_NUMBER
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageLicenseInfoFromFiles: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 65f7e2858bbb038f93543e11398ea9953bc854a9
+PackageCopyrightText: NOASSERTION
+PackageSummary: NOASSERTION
+PackageDescription: "Client implementation of the MQTT 3.1.1 specification for embedded devices.\n"
+
+
+FileName: ./core_mqtt_serializer.c
+SPDXID: SPDXRef-File-coremqttserializer.c
+FileChecksum: SHA1: 72698ccfc76c6f491d554bc611a0f7a4e6e4c4e2
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./core_mqtt.c
+SPDXID: SPDXRef-File-coremqtt.c
+FileChecksum: SHA1: ae32292e7fe4fbe53856b481351322d67ac12228
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./core_mqtt_state.c
+SPDXID: SPDXRef-File-coremqttstate.c
+FileChecksum: SHA1: e95c85dc2ba4c7872b2c3da44bd33364416e2d66
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
