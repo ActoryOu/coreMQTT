@@ -1,6 +1,7 @@
 {
   "name": "coreMQTT Library",
   "releases": [
+    "v100.0.5",
     "v100.0.4",
     "v100.0.3",
     "v100.0.2",
